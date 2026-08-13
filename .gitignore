@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+# Editor/IDE
+.vscode/
+.idea/
+.DS_Store
+# Local config and caches
+.env
+.env.*
+config.ini
+# Termister runtime/session
+session.json
+credentials.json
+settings.json

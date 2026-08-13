@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "termister"
+version = "0.1.0"
+description = "Magister in je terminal — rooster, cijfers en opdrachten via de Magister API"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+]
+
+[project.scripts]
+termister = "termister.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["termister*"]
